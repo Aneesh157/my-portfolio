@@ -14,7 +14,7 @@ const HomeSection = () => {
           </h1>
 
           <p className="text-lg text-gray-600 mb-8 max-w-lg">
-            As a passionate React.js developer, I thrive on crafting seamless user experiences and building dynamic web
+            As a passionate Web developer, I thrive on crafting seamless user experiences and building dynamic web
             applications. With a strong foundation in front-end development and a knack for problem-solving, I am
             committed to writing high-quality, maintainable code and collaborating with cross-functional teams to
             deliver innovative, user-focused solutions.

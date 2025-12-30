@@ -1,5 +1,7 @@
 import { Contact2Icon, Facebook, GraduationCapIcon, Home, Instagram, Linkedin, Mail, MapPin, Phone, User } from "lucide-react";
 import { FaHtml5, FaNodeJs, FaMobileAlt } from "react-icons/fa";
+import MANOJ from "../../assets/manoj.jpg";
+import ANANDHU from "../../assets/anandhu.png";
 
 export const inputStyle = "bg-transparent border border-cyan-500/50 rounded-md px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-cyan-400 transition";
 
@@ -27,7 +29,7 @@ export const contactInfo = [
 export const socialLinks = [
   {
     icon: <Facebook size={20} />,
-    link: "www.facebook.com/aneesh.annalath",
+    link: "https://www.facebook.com/profile.php?id=100007607409146",
     label: "Facebook",
   },
   {
@@ -76,4 +78,21 @@ export const skills = [
   { name: "Mongo DB", level: 70 },
   { name: "Express JS", level: 75 },
   { name: "Node JS", level: 75 }
+];
+
+export const testimonials = [
+  {
+    name: "Manoj Ram M B",
+    role: "Developer",
+    image: MANOJ,
+    message:
+      "Aneesh was very helpful and fast to respond to my inquiry to help with my website issues. His knowledge was comprehensive. Even better, his advice helped me enough to solve the problems. Thank you Aneesh.",
+  },
+  {
+    name: "Anandukrishna J",
+    role: "UI Designer",
+    image: ANANDHU,
+    message:
+      "Professional, reliable, and easy to work with. Highly recommended for web projects.",
+  },
 ];
