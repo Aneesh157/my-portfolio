@@ -1,7 +1,8 @@
 import { Contact2Icon, Facebook, GraduationCapIcon, Home, Instagram, Linkedin, Mail, MapPin, Phone, User } from "lucide-react";
 import { FaHtml5, FaNodeJs, FaMobileAlt } from "react-icons/fa";
 import MANOJ from "../../assets/manoj.jpg";
-import ANANDHU from "../../assets/anandhu.png";
+import ANANDHU from "../../assets/anandhu.jpg";
+import LEKSHMI_KANTH from "../../assets/lekshmikanth.jpg";
 
 export const inputStyle = "bg-transparent border border-cyan-500/50 rounded-md px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-cyan-400 transition";
 
@@ -95,4 +96,11 @@ export const testimonials = [
     message:
       "Professional, reliable, and easy to work with. Highly recommended for web projects.",
   },
+  {
+    name: "Lekshmi Kanth J",
+    role: "Developer",
+    image: LEKSHMI_KANTH,
+    message:
+      "Aneesh delivered exceptional work on our website redesign. His attention to detail and creativity truly transformed our online presence.",
+  }
 ];
